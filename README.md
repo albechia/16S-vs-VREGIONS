@@ -103,7 +103,7 @@ linearHypothesis(regression, "dist_vector_full = 1")
 The very high F statistic value combined with the significant p-value show that, as we saw before, there is indeed a strong correlation between the identities of the two groups, but that relationship isn’t perfectly proportional x=y. This means that there is a possibility that two 16S sequences which have more than 97% identity may have their identity value drop below that threshold if we only compare their respective V3-V4 regions, leading to the belief that the two sequences belong to two distinct bacteria.
 
 ### V7-V9 regions
-We have seen this behavior between the pairwise distances of the full 16S sequences and the ones calculated on the hyper variable region V3-V4. I did the same analysis picking a different region to see if results were consistent. This time I wasn’t able to find primers for only V8 and V9 regions; however, the paper “Primer, Pipelines, Parameters: Issues in 16S rRNA Gene Sequencing” (doi: 10.1128/mSphere.01202-20) had primer sequences for the region spanning from V7 to V9. I therefore selected these primers to proceed with the analysis.
+We have seen this behavior between the pairwise distances of the full 16S sequences and the ones calculated on the hyper variable region V3-V4. I did the same analysis picking a different region to see if results were consistent. This time I wasn’t able to find primers for only V8 and V9 regions; however, the paper “Primer, Pipelines, Parameters: Issues in 16S rRNA Gene Sequencing” (https://doi.org/10.1128/msphere.01202-20) had primer sequences for the region spanning from V7 to V9. I therefore selected these primers to proceed with the analysis.
 
 ```r
 file <- "/Users/chiaraalbertini/Desktop/brilli/input_sequences.fasta"
